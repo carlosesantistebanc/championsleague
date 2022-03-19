@@ -11,6 +11,13 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <!--jquery-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
   </head>
   <body>
     <nav class="navbar">
@@ -19,14 +26,14 @@
           <a href="index.html"><img src="img/champions.png" alt="" /></a>
         </div>
         <ul class="menu">
-          <li><a href="#group-A" class="">Grupo A</a></li>
-          <li><a href="#group-B" class="">Grupo B</a></li>
-          <li><a href="#group-C" class="">Grupo C</a></li>
-          <li><a href="#group-D" class="">Grupo D</a></li>
-          <li><a href="#group-E" class="">Grupo E</a></li>
-          <li><a href="#group-F" class="">Grupo F</a></li>
-          <li><a href="#group-G" class="">Grupo G</a></li>
-          <li><a href="#group-H" class="">Grupo H</a></li>
+          <li><a href="#group-A" class="menu-btn">Grupo A</a></li>
+          <li><a href="#group-B" class="menu-btn">Grupo B</a></li>
+          <li><a href="#group-C" class="menu-btn">Grupo C</a></li>
+          <li><a href="#group-D" class="menu-btn">Grupo D</a></li>
+          <li><a href="#group-E" class="menu-btn">Grupo E</a></li>
+          <li><a href="#group-F" class="menu-btn">Grupo F</a></li>
+          <li><a href="#group-G" class="menu-btn">Grupo G</a></li>
+          <li><a href="#group-H" class="menu-btn">Grupo H</a></li>
           <li>
             <a href="#" class="">Fase Final</a>
             <ul class="submenu">
@@ -45,6 +52,9 @@
             </ul>
           </li>
         </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
     </nav>
 
@@ -77,8 +87,7 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/mancity.png"
-                      style="width: 60px; height: 60px"
-                    />Manchester City
+                    />Man. City
                   </td>
                   <td>6</td>
                   <td>4</td>
@@ -93,8 +102,7 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/psg.png"
-                      style="width: 60px; height: 60px"
-                    />Paris St Germain
+                    />Paris SG
                   </td>
                   <td>6</td>
                   <td>3</td>
@@ -109,7 +117,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/rbleipzig.png"
-                      style="width: 60px; height: 60px"
                     />RB Leipzig
                   </td>
                   <td>6</td>
@@ -125,7 +132,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/clubbrujas.png"
-                      style="width: 60px; height: 60px"
                     />Club Brujas
                   </td>
                   <td>6</td>
@@ -388,7 +394,6 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/liverpool.png"
-                      style="width: 60px; height: 60px"
                     />Liverpool FC
                   </td>
                   <td>6</td>
@@ -404,8 +409,7 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/atletico.png"
-                      style="width: 60px; height: 60px"
-                    />Atlético Madrid
+                    />Atl. Madrid
                   </td>
                   <td>6</td>
                   <td>2</td>
@@ -420,7 +424,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/porto.png"
-                      style="width: 60px; height: 60px"
                     />FC Porto
                   </td>
                   <td>6</td>
@@ -436,7 +439,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/acmilan.png"
-                      style="width: 60px; height: 60px"
                     />AC Milán
                   </td>
                   <td>6</td>
@@ -699,7 +701,6 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/ajax.png"
-                      style="width: 60px; height: 60px"
                     />Ajax
                   </td>
                   <td>6</td>
@@ -715,7 +716,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/sporting.png"
-                      style="width: 60px; height: 60px"
                     />Sporting CP
                   </td>
                   <td>6</td>
@@ -731,7 +731,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/dortmund.png"
-                      style="width: 60px; height: 60px"
                     />B. Dortmund
                   </td>
                   <td>6</td>
@@ -747,7 +746,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/besiktas.png"
-                      style="width: 60px; height: 60px"
                     />Besiktas
                   </td>
                   <td>6</td>
@@ -1010,8 +1008,7 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/realmadrid.png"
-                      style="width: 60px; height: 60px"
-                    />Real Madrid CF
+                    />R. Madrid CF
                   </td>
                   <td>6</td>
                   <td>5</td>
@@ -1026,7 +1023,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/inter.png"
-                      style="width: 60px; height: 60px"
                     />Inter
                   </td>
                   <td>6</td>
@@ -1042,8 +1038,7 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/sheriff.png"
-                      style="width: 60px; height: 60px"
-                    />Sheriff Tiraspol
+                    />Sheriff T.
                   </td>
                   <td>6</td>
                   <td>2</td>
@@ -1058,8 +1053,7 @@
                   <td class="club">
                     <img
                       src="img/clubes/shakhtar.png"
-                      style="width: 60px; height: 60px"
-                    />Shakhtar Donestk
+                    />Shakhtar
                   </td>
                   <td>6</td>
                   <td>0</td>
@@ -1321,7 +1315,6 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/bayern.png"
-                      style="width: 60px; height: 60px"
                     />Bayern Munich
                   </td>
                   <td>6</td>
@@ -1337,7 +1330,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/benfica.png"
-                      style="width: 60px; height: 60px"
                     />SL Benfica
                   </td>
                   <td>6</td>
@@ -1353,7 +1345,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/barcelona.png"
-                      style="width: 60px; height: 60px"
                     />FC Barcelona
                   </td>
                   <td>6</td>
@@ -1369,7 +1360,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/dinamokiev.png"
-                      style="width: 60px; height: 60px"
                     />Dinamo Kiev
                   </td>
                   <td>6</td>
@@ -1632,8 +1622,7 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/manunited.png"
-                      style="width: 60px; height: 60px"
-                    />Manchester United
+                    />Man. United
                   </td>
                   <td>6</td>
                   <td>3</td>
@@ -1649,7 +1638,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/villareal.png"
-                      style="width: 60px; height: 60px"
                     />Villareal CF
                   </td>
                   <td>6</td>
@@ -1665,7 +1653,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/atalanta.png"
-                      style="width: 60px; height: 60px"
                     />Atalanta
                   </td>
                   <td>6</td>
@@ -1681,7 +1668,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/youngboys.png"
-                      style="width: 60px; height: 60px"
                     />Young Boys
                   </td>
                   <td>6</td>
@@ -1944,7 +1930,6 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/lille.png"
-                      style="width: 60px; height: 60px"
                     />LOSC Lille
                   </td>
                   <td>6</td>
@@ -1960,7 +1945,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/salzburgo.png"
-                      style="width: 60px; height: 60px"
                     />Salzburgo
                   </td>
                   <td>6</td>
@@ -1976,7 +1960,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/sevilla.png"
-                      style="width: 60px; height: 60px"
                     />Sevilla FC
                   </td>
                   <td>6</td>
@@ -1992,7 +1975,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/wolfsburgo.png"
-                      style="width: 60px; height: 60px"
                     />Wolfsburgo
                   </td>
                   <td>6</td>
@@ -2255,7 +2237,6 @@
                   <td class="club" id="first">
                     <img
                       src="img/clubes/juventus.png"
-                      style="width: 60px; height: 60px"
                     />Juventus FC
                   </td>
                   <td>6</td>
@@ -2271,7 +2252,6 @@
                   <td class="club" id="second">
                     <img
                       src="img/clubes/chelsea.png"
-                      style="width: 60px; height: 60px"
                     />Chelsea FC
                   </td>
                   <td>6</td>
@@ -2287,7 +2267,6 @@
                   <td class="club" id="third">
                     <img
                       src="img/clubes/zenit.png"
-                      style="width: 60px; height: 60px"
                     />Zenit
                   </td>
                   <td>6</td>
@@ -2303,7 +2282,6 @@
                   <td class="club">
                     <img
                       src="img/clubes/malmo.png"
-                      style="width: 60px; height: 60px"
                     />Malmo FF
                   </td>
                   <td>6</td>
@@ -2552,5 +2530,7 @@
         reservados.
       </span>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
